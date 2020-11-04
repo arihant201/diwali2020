@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #003056;
+	background-image: url('https://c4.wallpaperflare.com/wallpaper/824/662/345/happy-diwali-festival-picture-of-ganesha-with-black-desktop-background-happy-diwali-illustration-wallpaper-preview.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+.fireworks {
+	position: fixed;
+}
+
+#head-greet {
+	color: #fff;
+	text-align: center;
+	font-family: cursive;
+	position: relative;
+	margin-top: 20px;
+}
+
+.glow {
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes glow {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+	to {
+		text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+	}
+}
+
+#result {
+	color: #fff;
+	text-align: center;
+	font-family: cursive;
+	position: relative;
+	margin-top: 20px;
+}
+
+.glow-1 {
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	-webkit-animation: glow-1 1s ease-in-out infinite alternate;
+	-moz-animation: glow-1 1s ease-in-out infinite alternate;
+	animation: glow-1 1s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes glow-1 {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #008000, 0 0 40px #008000, 0 0 50px #008000, 0 0 60px #008000, 0 0 70px #008000;
+	}
+	to {
+		text-shadow: 0 0 20px #fff, 0 0 30px #0000FF, 0 0 40px #0000FF, 0 0 50px #0000FF, 0 0 60px #0000FF, 0 0 70px #0000FF, 0 0 80px #0000FF;
+	}
+}
+
+.container { 
+	position: relative;
+	text-align: center;
+}
+
+.gradient { 
+	font-size: 2rem; 
+	font-weight: 700;
+	background: 
+		linear-gradient(to right, 
+			#fcc133, 
+			#334efc); 
+	display: inline-block; 
+	-webkit-background-clip: text; 
+	background-clip: text; 
+	color: transparent;
+	margin-top: 20px;
+}
+
+.wrapper {
+	text-align: center;
+	position: relative;
+}
+
+h4 {
+	color: #fff;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-family: 'Lobster Two', cursive;
+	font-weight: 500;
+	background: linear-gradient(to right, #FF8C00 10%, #fff 50%, #5bdaff 60%);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 1.5s linear infinite;
+	display: inline-block;
+}
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+
+.footer-card {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    color: #ff0;
+    text-shadow: 0 15px 5px rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.35) !important; 
+    box-shadow: 0 0 60px red;
+}
+
+.footer-text {
+	margin-top: 10px;
+	font-family: cursive;
+}
